@@ -1,0 +1,23 @@
+/* FARVER */
+
+a:link,
+a:visited {
+  color: #5c946e; /* Change the color to your desired link color */
+  text-decoration: none; /* Remove the underline */
+}
+
+a:hover,
+a:active {
+  text-decoration: none; /* Remove the underline on hover and active states */
+  color: #c47335; /* Change the color to your desired hover and active color */
+}
+
+h1,
+li {
+  font-family: "Mukta Mahee", sans-serif;
+  color: #5c946e;
+}
+
+body {
+  background-color: #ffffea;
+}

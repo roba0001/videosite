@@ -1,0 +1,53 @@
+/* GENERELT */
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 340%;
+}
+
+/* TOPMENU */
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  margin: 0 200px; /* Adjust the margin as needed */
+}
+
+/* BILLEDER */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+
+  justify-content: center; /* Center the grid horizontally */
+  margin: 0 auto; /* Ensure the container has automatic horizontal margins for centering */
+  max-width: 800px; /* Set a maximum width for the container if needed */
+}
+
+/* VIDEO */
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
